@@ -19,5 +19,5 @@ const getCollectionFn = collection => {
 
 /* Now, you can list your collections here: */
 module.exports = {
-  posts: getCollectionFn("todoItems")
+  todoItems: getCollectionFn("todoItems")
 };
